@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 
 function About() {
 	return (
-		<div className= "mt5">
+		<div className= "mt4">
 			<header class="bg-primary text-center py-5 mb-4">
 			  <div class="container">
 			    <h1 class="font-weight-light text-white">Meet the Team</h1>

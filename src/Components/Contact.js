@@ -3,12 +3,12 @@ import Sidebar from './Sidebar';
 
 function Contact() {
 	return (
-		<div class="container mt5">
+		<div class="container mt5 mb5 ">
 			<div class="row">
-			  	<div class="col-md-8">
-			  		{/*<div class="row">*/}
-				  		<h2>Stacked form</h2>
-				  		<form action="/action_page.php">
+			  	<div class="col-md-8" >
+				  		<h2>Get In Touch </h2>
+				  		<p> Fill in the form below to contact us </p>
+				  		<form action="/action_page.php" className= "pa3"style={{boxShadow: "2px 2px 8px 0px rgba( 0, 0, 0, 0.2 )"}}>
 					    	<div class="form-group">
 					      		<label for="email">Email:</label>
 					      		<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" />
@@ -24,7 +24,6 @@ function Contact() {
 					    	</div>
 					    	<button type="submit" class="btn btn-primary">Submit</button>
 				  		</form>
-					{/*</div>*/}
 				</div>
 				  	<div class="col-md-4">
 				  		<div class="row">
